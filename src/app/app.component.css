@@ -1,4 +1,25 @@
-@use '~@angular/material' as mat;
-p {
-  font-family: Lato;
+.container{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.stop-button{
+  margin-left: 8px;
+}
+.actions{
+  flex-direction:'row';
+}
+.badge-container{
+  flex-direction: 'row';
+  margin: auto;
+  justify-content: center;
+}
+#reset {
+  cursor: pointer;
+}
+.icon-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
